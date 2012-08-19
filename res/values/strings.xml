@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Files Explorer</string>
+    <string name="app_version_title">Version</string>
+    
+    <string name="folder_up">Folder up</string>
+     
+    <string name="is_not_a_folder">Isn\'t a folder</string>
+    <string name="folder_isnt_readable">Folder isn\'t readable</string>
+    <string name="folder_is_empty">Folder is empty</string>
+    
+    <string name="list_folders_first">Files sort</string>
+    <string name="list_folders_first_on_summary">Show folders before the plain files</string>
+    <string name="list_folders_first_off_summary">Sort files and folders alphabetically</string>
+        
+    <string name="root_folder">Root folder</string>
+    <string name="root_folder_summary">Click to select root folder</string>
+        
+    <string name="accept_button">Accept</string>
+    <string name="cancel_button">Cancel</string>
+    
+    <!--  Non language dependent strings -->
+    
+    <string name="app_version">1.0.6</string>
+    
+    <string name="list_folders_first_default">true</string>
+    
+</resources> 

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Explorador de archivos</string>
+    <string name="app_version_title">Versión</string>
+        
+    <string name="folder_up">Directorio anterior</string>
+    
+    <string name="is_not_a_folder">No es un directorio</string>
+    <string name="folder_isnt_readable">El directorio no se puede leer</string>
+    <string name="folder_is_empty">El directorio está vacío</string>
+   
+    <string name="list_folders_first">Ordenación de archivos</string>
+    <string name="list_folders_first_on_summary">Mostrar los directorios antes que los archivos</string>
+    <string name="list_folders_first_off_summary">Ordenar archivos y directorios alfabéticamente</string>
+        
+    <string name="root_folder">Directorio raíz</string>
+    <string name="root_folder_summary">Haga clic para seleccionar el directorio raíz</string>
+    
+    <string name="accept_button">Aceptar</string>
+    <string name="cancel_button">Cancelar</string>
+    
+</resources>

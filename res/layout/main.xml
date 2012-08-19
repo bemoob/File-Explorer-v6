@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--  
+
+Estructura de la vista principal.
+Contiene un LinearLayout en el que posicionamos el resto de los
+elementos:
+
+* Un LinearLayout horizontal que contendrá un icono de una
+  carpeta y el nombre del directorio actual
+  
+* Un ListView con la lista de los ficheros del directorio
+  (ver el archivo @layout/file_row.xml para ver la estructura
+  de cada fila).
+  
+ -->
+ 
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:minHeight="400dp"
+    android:minWidth="300dp"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF84877F"
+        android:orientation="horizontal" >
+    
+		<ImageView
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="center_vertical"
+		    android:layout_marginLeft="5dp"
+		    android:src="@drawable/folder_mini" />
+
+    	<TextView
+        	android:id="@+id/folder_name"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:layout_gravity="center_vertical"
+        	android:textColor="#FFFFFFFF"
+        	android:ellipsize="marquee"
+        	android:focusable="true"
+        	android:focusableInTouchMode="true"
+        	android:singleLine="true"
+        	android:padding="10dp"
+        	android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </LinearLayout>
+    
+    <ListView
+        android:id="@+id/files_listview"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:cacheColorHint="#00000000" />
+    
+    <LinearLayout
+        android:id="@+id/buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"        
+        android:background="#FF808080"
+        android:visibility="gone" >
+
+        <Button
+            android:id="@+id/accept_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+    	    android:layout_marginTop="4dp"
+            android:text="@string/accept_button" />
+
+        <Button
+            android:id="@+id/cancel_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+	        android:layout_marginTop="4dp"
+            android:text="@string/cancel_button" />
+
+    </LinearLayout>
+    
+	    
+</LinearLayout>

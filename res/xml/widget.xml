@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 
+
+  Datos básicos del widget:
+  - Altura y anchura: 
+	  	1: 40dp
+		2: 110dp
+		3: 180dp
+		4: 250dp
+		n: 70 × n − 30
+  - Layout inicial (que puede modificarse al actualizar el widget)
+  - Actividad de configuración del widget (nombre completo de la clase)
+  
+-->
+
+<appwidget-provider
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:minWidth="40dp"
+    android:minHeight="40dp"
+    android:initialLayout="@layout/widget"
+    android:configure="com.faqsAndroid.filesExplorer.WidgetPreferences" />
